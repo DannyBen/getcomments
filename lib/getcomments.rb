@@ -1,2 +1,2 @@
 require 'getcomments/version'
-require 'getcomments/get_comments'
+require 'getcomments/read'
