@@ -4,7 +4,7 @@ module TestModule
   # Class comment
   class TestClass
 
-    # Attr Reader Comment
+    # Attribute comment
     attr_reader :some_attr
 
     # Method comment
@@ -13,8 +13,16 @@ module TestModule
     #   With indented example
     #   as if it is code
     def some_method(with:, args:)
+      # Floating comment
+
     end
+
+    # Method comment
+    def another_method
+    end
+
+    # Another floating comment
   end
 end
 
-# pp GetComments::Read.from 'dev/test.rb'
+# EOF comment

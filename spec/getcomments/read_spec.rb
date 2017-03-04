@@ -22,19 +22,28 @@ describe Read do
     end
 
     it "captures comments for module" do
-      expect(result['module TestModule']).to be_a String
+      expect(result['module TestModule']).to eq "Module comment"
     end
 
     it "captures comments for class" do
-      expect(result['class TestClass']).to be_a String
+      expect(result['class TestClass']).to eq "Class comment"
     end
 
     it "captures comments for def" do
-      expect(result['def some_method']).to be_a String
+      expect(result['def another_method']).to eq "Method comment"
     end
 
     it "captures comments for attr accessors" do
-      expect(result['attr_reader :some_attr']).to be_a String
+      expect(result['attr_reader :some_attr']).to eq "Attribute comment"
+    end
+
+    it "captures floating comments" do
+      expect(result['comment_1']).to eq "Floating comment"
+      expect(result['comment_2']).to eq "Another floating comment"
+    end
+
+    it "captures end of file comments" do
+      expect(result['comment_3']).to eq "EOF comment"
     end
   end
 end
