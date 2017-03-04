@@ -36,9 +36,9 @@ comments = GetComments::Read.from 'filename.rb'
 p comments
 
 # => {
-       "module TestModule" => "This is the module comment",
-       "class TestClass"   => "This is the class comment",
-       "def some_method"   => "This is a multiline\nmethod comment"
-     }
+#      "module TestModule" => "This is the module comment",
+#      "class TestClass"   => "This is the class comment",
+#      "def some_method"   => "This is a multiline\nmethod comment"
+#    }
 
 ```
