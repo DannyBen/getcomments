@@ -6,7 +6,7 @@ GetComments - Extract Comments from Ruby Code
 [![Dependencies](https://img.shields.io/gemnasium/DannyBen/getcomments.svg?style=flat-square)](https://gemnasium.com/DannyBen/getcomments)
 [![Code Quality](https://img.shields.io/codacy/grade/f3205b547dbd4b4ea1e7825fe4ec136c.svg?style=flat-square)](https://www.codacy.com/app/db/runfile)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/DannyBen/getcomments.svg?style=flat-square)](https://codeclimate.com/github/DannyBen/getcomments)
-[![Issues](https://img.shields.io/codeclimate/issues/github/DannyBen/getcomments.svg?style=flat-square)](https://codeclimate.com/github/DannyBen/getcomments)
+[![Issues](https://img.shields.io/codeclimate/issues/DannyBen/getcomments.svg?style=flat-square)](https://codeclimate.com/github/DannyBen/getcomments)
 
 ---
 
