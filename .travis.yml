@@ -5,7 +5,7 @@ env:
   - CC_TEST_REPORTER_ID=4a33bd507dcf50201863f6e860cf37ce1d501c1618d9bd0d9525d9e74047d109
 
 rvm:
-  - "2.0.0"
+  - "2.2.2"
   - "2.4.1"
   - "2.5.0"
 
