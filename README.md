@@ -1,11 +1,11 @@
 GetComments - Extract Comments from Ruby Code
 ==================================================
 
-[![Gem](https://img.shields.io/gem/v/getcomments.svg?style=flat-square)](https://rubygems.org/gems/getcomments)
-[![Build](https://img.shields.io/travis/DannyBen/getcomments.svg?style=flat-square)](https://travis-ci.org/DannyBen/getcomments)
-[![Dependencies](https://img.shields.io/gemnasium/DannyBen/getcomments.svg?style=flat-square)](https://gemnasium.com/DannyBen/getcomments)
-[![Code Quality](https://img.shields.io/codacy/grade/f3205b547dbd4b4ea1e7825fe4ec136c.svg?style=flat-square)](https://www.codacy.com/app/db/runfile)
-[![Maintainability](https://img.shields.io/codeclimate/maintainability/DannyBen/getcomments.svg?style=flat-square)](https://codeclimate.com/github/DannyBen/getcomments)
+[![Gem Version](https://badge.fury.io/rb/getcomments.svg)](https://badge.fury.io/rb/getcomments)
+[![Build Status](https://travis-ci.org/DannyBen/getcomments.svg?branch=master)](https://travis-ci.org/DannyBen/getcomments)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/55cf6df171234931b1781db7921ff68e)](https://www.codacy.com/app/db/runfile?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DannyBen/runfile&amp;utm_campaign=Badge_Grade)
+[![Maintainability](https://api.codeclimate.com/v1/badges/bcf41ae9f2c8ebd59f4d/maintainability)](https://codeclimate.com/github/DannyBen/getcomments/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/bcf41ae9f2c8ebd59f4d/test_coverage)](https://codeclimate.com/github/DannyBen/getcomments/test_coverage)
 
 ---
 
