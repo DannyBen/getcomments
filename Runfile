@@ -1,7 +1,7 @@
 require "runfile-tasks"
 require_relative 'lib/getcomments'
 
-name    "GetComments Developer Toolbelt"
+title   "GetComments Developer Toolbelt"
 summary "Runfile tasks for building the GetComments gem"
 version GetComments::VERSION
 
