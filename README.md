@@ -21,7 +21,7 @@ $ gem install getcomments
 
 Or with bundler:
 
-```ruby
+```
 gem 'getcomments'
 ```
 
@@ -29,15 +29,36 @@ gem 'getcomments'
 Usage
 --------------------------------------------------
 
+Get comments from a file:
+
 ```ruby
+# GetComments.from_file
 require 'getcomments'
-comments = GetComments::Read.from 'filename.rb'
-p comments
+comments = GetComments.from_file 'spec/fixtures/minimal.rb'
+comments.each do |key, value|
+  puts "#{key}: #{value}"
+end
 
-# => {
-#      "module TestModule" => "This is the module comment",
-#      "class TestClass"   => "This is the class comment",
-#      "def some_method"   => "This is a multiline\nmethod comment"
-#    }
+#=> module TestModule: Module comment
+#=> class TestClass: Class comment
+#=> attr_reader :some_attr: Attribute comment
+#=> def some_method: Method comment
+```
 
+Get coimments from a string:
+
+```ruby
+# GetComments.from_string
+code = <<-EOF
+  # This function just sits here
+  def the_function
+  end
+EOF
+
+comments = GetComments.from_string code
+comments.each do |key, value|
+  puts "#{key}: #{value}"
+end
+
+#=> def the_function: This function just sits here
 ```

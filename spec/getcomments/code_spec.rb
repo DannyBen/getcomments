@@ -1,17 +1,11 @@
 require 'spec_helper'
 
-describe Read do
-  let(:subject) { described_class.new 'spec/fixtures/basic.rb' }
+describe Code do
+  let(:code) { File.read 'spec/fixtures/basic.rb' }
+  let(:subject) { described_class.new code }
 
-  describe "::from" do
-    it "calls #get on a new instance" do
-      expect_any_instance_of(Read).to receive :get
-      Read.from 'spec/fixtures/basic.rb'
-    end
-  end
-  
-  describe "#get" do
-    let(:result) { subject.get }
+  describe "#comments" do
+    let(:result) { subject.comments }
 
     it "returns a hash" do
       expect(result).to be_a Hash

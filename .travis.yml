@@ -12,3 +12,4 @@ before_install:
 
 script:
 - bundle exec rspec
+- bundle exec docspec
