@@ -45,7 +45,7 @@ end
 #=> def some_method: Method comment
 ```
 
-Get coimments from a string:
+Get comments from a string:
 
 ```ruby
 # GetComments.from_string
