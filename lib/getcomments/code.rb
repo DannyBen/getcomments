@@ -1,18 +1,19 @@
 module GetComments
-  class Read
-    attr_reader :filename
-    attr_accessor :comment_index
+  class Code
+    attr_reader :code, :comment_index
 
-    def self.from(filename)
-      new(filename).get
-    end
-
-    def initialize(filename)
-      @filename = filename
+    def initialize(code)
+      @code = code
       @comment_index = 0
     end
 
-    def get
+    def comments
+      @comments ||= comments!
+    end
+
+  private
+
+    def comments!
       last_comment = []
       result = {}
 
@@ -34,19 +35,18 @@ module GetComments
       result
     end
 
-    private
-
     def lines
-      @lines ||= File.readlines filename
+      @lines ||= code.lines
     end
 
     def get_key(line='')
       if match = line.match(/^([\w_]+ [\w\:]+)/)
         match.captures.first
       else
-        self.comment_index += 1
+        @comment_index += 1
         "comment_#{comment_index}"
       end
     end
   end
+
 end
