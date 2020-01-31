@@ -2,7 +2,7 @@ GetComments - Extract Comments from Ruby Code
 ==================================================
 
 [![Gem Version](https://badge.fury.io/rb/getcomments.svg)](https://badge.fury.io/rb/getcomments)
-[![Build Status](https://travis-ci.com/DannyBen/getcomments.svg?branch=master)](https://travis-ci.com/DannyBen/getcomments)
+[![Build Status](https://github.com/DannyBen/getcomments/workflows/Test/badge.svg)](https://github.com/DannyBen/getcomments/actions?query=workflow%3ATest)
 [![Maintainability](https://api.codeclimate.com/v1/badges/bcf41ae9f2c8ebd59f4d/maintainability)](https://codeclimate.com/github/DannyBen/getcomments/maintainability)
 
 ---
