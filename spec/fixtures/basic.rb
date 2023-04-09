@@ -1,9 +1,7 @@
 # Module comment
 module TestModule
-
   # Class comment
   class TestClass
-
     # Attribute comment
     attr_reader :some_attr
 
@@ -14,12 +12,10 @@ module TestModule
     #   as if it is code
     def some_method(with:, args:)
       # Floating comment
-
     end
 
     # Method comment
-    def another_method
-    end
+    def another_method; end
 
     # Another floating comment
   end

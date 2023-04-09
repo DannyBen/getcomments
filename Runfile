@@ -1,9 +1,4 @@
-require "runfile-tasks"
-require_relative 'lib/getcomments'
-
 title   "GetComments Developer Toolbelt"
 summary "Runfile tasks for building the GetComments gem"
-version GetComments::VERSION
 
-RunfileTasks::RubyGems.all 'getcomments'
-RunfileTasks::Testing.rspec
+import_gem 'runfile-tasks/gem'
