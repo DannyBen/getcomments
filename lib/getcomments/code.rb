@@ -39,8 +39,8 @@ module GetComments
       @lines ||= code.lines
     end
 
-    def get_key(line='')
-      if match = line.match(/^([\w_]+ [\w\:]+)/)
+    def get_key(line = '')
+      if (match = line.match(/^([\w_]+ [\w:]+)/))
         match.captures.first
       else
         @comment_index += 1
@@ -48,5 +48,4 @@ module GetComments
       end
     end
   end
-
 end
