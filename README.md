@@ -1,15 +1,7 @@
 GetComments - Extract Comments from Ruby Code
 ==================================================
 
-[![Gem Version](https://badge.fury.io/rb/getcomments.svg)](https://badge.fury.io/rb/getcomments)
-[![Build Status](https://github.com/DannyBen/getcomments/workflows/Test/badge.svg)](https://github.com/DannyBen/getcomments/actions?query=workflow%3ATest)
-[![Maintainability](https://api.codeclimate.com/v1/badges/bcf41ae9f2c8ebd59f4d/maintainability)](https://codeclimate.com/github/DannyBen/getcomments/maintainability)
-
----
-
 This library provides an easy way to extract comments from a ruby source file.
-
----
 
 
 Install
