@@ -1,6 +1,8 @@
 GetComments - Extract Comments from Ruby Code
 ==================================================
 
+![repocard](https://repocard.dannyben.com/svg/getcomments.svg)
+
 This library provides an easy way to extract comments from a ruby source file.
 
 
